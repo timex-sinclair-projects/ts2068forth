@@ -553,10 +553,7 @@ _COLD_INIT_TABLE:
 _COLD_INIT_SIZE EQU $ - _COLD_INIT_TABLE
 
 _STR_BANNER:
-    db  13, "TS2068 fig-FORTH  v0.8", 13
-    db  "(C) 2026 64K Software", 13
-    db  "64ksoftware.com", 13
-    db  "Public Domain / Open Source", 13, 0
+    db  13, "TS2068 fig-FORTH  v0.9", 13, 0
 _STR_FREE:
     db  " bytes free", 13, 0
 _STR_OK:

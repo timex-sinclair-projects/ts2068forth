@@ -7,7 +7,7 @@ also builds an autostarting **16K DOCK cartridge** (`make dck`) for those who wa
 
 ## Status
 
-**Working (v0.8).** Confirmed running on real-hardware-class emulation (Fuse).
+**Working (v0.9).** Confirmed running on real-hardware-class emulation (Fuse).
 
 - 258 words — the full fig-FORTH kernel plus TS2068 hardware words, floating point
   (via the ROM calculator), a block/screen editor, and tape I/O.
@@ -92,4 +92,5 @@ Built from scratch, informed by analysis of:
 - Robert J. Burton's fig-FORTH for the TS2068 (~198x, public domain)
 - Hawg Wild Software's fig-FORTH for the TS2068 (1985)
 
-Public domain / open source, in the spirit of the original fig-FORTH model.
+Released into the **public domain** under [The Unlicense](LICENSE) — do anything you like
+with it, no attribution required. In the spirit of the original fig-FORTH model.
