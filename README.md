@@ -1,6 +1,6 @@
 # TS2068 fig-FORTH
 
-A from-scratch [fig-FORTH](https://en.wikipedia.org/wiki/Forth_(programming_language)#FIG-Forth)
+A [fig-FORTH](https://en.wikipedia.org/wiki/Forth_(programming_language)#FIG-Forth)
 for the **Timex/Sinclair 2068**, written in Z80 assembly (sjasmplus). The release ships as a
 **tape (`.tap`) image** that loads into RAM and gives a **~22K dictionary**; the same source
 also builds an autostarting **16K DOCK cartridge** (`make dck`) for those who want plug-and-go.
@@ -44,8 +44,7 @@ fuse --machine 2068 --tape build/forth-ram.tap     # then in BASIC: LOAD ""
 | **RAM/tape** (`forth-ram.tap`) | `LOAD ""` from tape | **~22K** (`$A800-$FFFF`) | Engine loads into RAM, so the dictionary sits right above it and reclaims the space the cartridge can't use. |
 
 Both are the same Forth (same 258 words); they differ only in where the dictionary
-starts. The cartridge wins on convenience (instant autostart); the tape version wins
-on free memory.
+starts. 
 
 Then try:
 
